@@ -91,10 +91,14 @@
 // console.log(silinen);
 // console.log(car.pop());
 
-const colors = ["Green", "Blue"];
-console.log(colors.unshift("Red"));
+// const colors = ["Green", "Blue"];
+// console.log(colors.unshift("Red"));
+// console.log(colors);
+// const car = ["Audi", "BMW"];
+// const car2 = ["Ford", "Tesla", "Mercedes"];
+// car.unshift(...car2);
+// console.log(car);
+
+const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+console.log(colors.shift());
 console.log(colors);
-const car = ["Audi", "BMW"];
-const car2 = ["Ford", "Tesla", "Mercedes"];
-car.unshift(...car2);
-console.log(car);
