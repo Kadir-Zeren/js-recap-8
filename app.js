@@ -130,8 +130,18 @@
 // colors.reverse();
 // console.log(colors);
 
-const arr = ["C", "l", "a", "r", "u", "s", "w", "a", "y"];
-console.log(arr.join());
-console.log(arr.join(" "));
-console.log(arr.join("-"));
+// const arr = ["C", "l", "a", "r", "u", "s", "w", "a", "y"];
+// console.log(arr.join());
+// console.log(arr.join(" "));
+// console.log(arr.join("-"));
+// console.log(arr);
+
+const arr = [55, 5, 22, 2, 11, 1, 111];
+arr.sort();
+console.log(arr);
+
+arr.sort((a, b) => a - b);
+console.log(arr);
+
+arr.sort((a, b) => b - a);
 console.log(arr);
