@@ -126,6 +126,12 @@
 // console.log(colors.lastIndexOf("Green", 3));
 // console.log(colors.lastIndexOf("green"));
 
-const colors = ["Red", "Green", "Blue", "Green", "Brown", "yellow"];
-colors.reverse();
-console.log(colors);
+// const colors = ["Red", "Green", "Blue", "Green", "Brown", "yellow"];
+// colors.reverse();
+// console.log(colors);
+
+const arr = ["C", "l", "a", "r", "u", "s", "w", "a", "y"];
+console.log(arr.join());
+console.log(arr.join(" "));
+console.log(arr.join("-"));
+console.log(arr);
