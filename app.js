@@ -117,11 +117,15 @@
 // const destr = color1.push(...color2, ...color3);
 // console.log(color1);
 
-const colors = ["Red", "Green", "Blue", "Brown", "Green"];
-console.log(colors.indexOf("Green"));
-console.log(colors.indexOf("Green", 3));
-console.log(colors.indexOf("green"));
-console.log(colors.lastIndexOf("Green"));
-console.log(colors.lastIndexOf("Green", -2));
-console.log(colors.lastIndexOf("Green", 3));
-console.log(colors.lastIndexOf("green"));
+// const colors = ["Red", "Green", "Blue", "Brown", "Green"];
+// console.log(colors.indexOf("Green"));
+// console.log(colors.indexOf("Green", 3));
+// console.log(colors.indexOf("green"));
+// console.log(colors.lastIndexOf("Green"));
+// console.log(colors.lastIndexOf("Green", -2));
+// console.log(colors.lastIndexOf("Green", 3));
+// console.log(colors.lastIndexOf("green"));
+
+const colors = ["Red", "Green", "Blue", "Green", "Brown", "yellow"];
+colors.reverse();
+console.log(colors);
