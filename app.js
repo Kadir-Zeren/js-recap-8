@@ -73,14 +73,20 @@
 // console.log(colors.slice(-2, 1));
 // console.log(colors.slice(-3, -1));
 
-const colors = ["Red", "Green"];
-console.log(colors.length);
-let c = "White";
-console.log(colors.push("Blue", 2023, c));
+// const colors = ["Red", "Green"];
+// console.log(colors.length);
+// let c = "White";
+// console.log(colors.push("Blue", 2023, c));
+
+// const car = ["Audi", "BMW"];
+// const car2 = ["Ford", "Tesla", "Mercedes"];
+// car.push(car2);
+// car.push(...car2);
+// console.log(car);
+// console.log(car[2][2]);
 
 const car = ["Audi", "BMW"];
-const car2 = ["Ford", "Tesla", "Mercedes"];
-car.push(car2);
-car.push(...car2);
-console.log(car);
-console.log(car[2][2]);
+console.log(car.pop());
+const silinen = car.pop();
+console.log(silinen);
+console.log(car.pop());
