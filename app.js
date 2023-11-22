@@ -99,6 +99,13 @@
 // car.unshift(...car2);
 // console.log(car);
 
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+// console.log(colors.shift());
+// console.log(colors);
+
 const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
-console.log(colors.shift());
+console.log(colors.splice(2, 1));
+console.log(colors.splice(2));
+console.log(colors);
+console.log(colors.splice(2, 0, "White"));
 console.log(colors);
