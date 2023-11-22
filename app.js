@@ -136,12 +136,17 @@
 // console.log(arr.join("-"));
 // console.log(arr);
 
-const arr = [55, 5, 22, 2, 11, 1, 111];
-arr.sort();
-console.log(arr);
+// const arr = [55, 5, 22, 2, 11, 1, 111];
+// arr.sort();
+// console.log(arr);
 
-arr.sort((a, b) => a - b);
-console.log(arr);
+// arr.sort((a, b) => a - b);
+// console.log(arr);
 
-arr.sort((a, b) => b - a);
-console.log(arr);
+// arr.sort((a, b) => b - a);
+// console.log(arr);
+
+const arr = ["red", "blue", "Purple", "white", "orange"];
+console.log(arr.includes("blue"));
+console.log(arr.includes("Blue"));
+console.log(arr.includes("blue", 2));
