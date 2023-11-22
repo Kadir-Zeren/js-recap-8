@@ -12,12 +12,23 @@
 // console.log(colors[-1]);
 // console.log(colors[56]);
 
+// const colors = ["Red", "Green", "Blue"];
+// console.log(typeof colors);
+
+// console.log(Array.isArray(colors));
+// console.log(colors instanceof Array);
+
+// const variables = "1";
+// console.log(Array.isArray(variables));
+// console.log(variables instanceof Array);
+
 const colors = ["Red", "Green", "Blue"];
-console.log(typeof colors);
 
-console.log(Array.isArray(colors));
-console.log(colors instanceof Array);
+colors[1] = "yellow";
+console.log(colors);
+colors[3] = 5;
+console.log(colors);
 
-const variables = "1";
-console.log(Array.isArray(variables));
-console.log(variables instanceof Array);
+let c = "Pink";
+colors[4] = c;
+console.log(colors);
