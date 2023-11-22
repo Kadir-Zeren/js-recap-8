@@ -110,9 +110,18 @@
 // console.log(colors.splice(2, 0, "White"));
 // console.log(colors);
 
-const color1 = ["red", "green"];
-const color2 = ["blue", "orange"];
-const color3 = [10, true];
-console.log(color1);
-const destr = color1.push(...color2, ...color3);
-console.log(color1);
+// const color1 = ["red", "green"];
+// const color2 = ["blue", "orange"];
+// const color3 = [10, true];
+// console.log(color1);
+// const destr = color1.push(...color2, ...color3);
+// console.log(color1);
+
+const colors = ["Red", "Green", "Blue", "Brown", "Green"];
+console.log(colors.indexOf("Green"));
+console.log(colors.indexOf("Green", 3));
+console.log(colors.indexOf("green"));
+console.log(colors.lastIndexOf("Green"));
+console.log(colors.lastIndexOf("Green", -2));
+console.log(colors.lastIndexOf("Green", 3));
+console.log(colors.lastIndexOf("green"));
