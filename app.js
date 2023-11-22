@@ -22,13 +22,21 @@
 // console.log(Array.isArray(variables));
 // console.log(variables instanceof Array);
 
+// const colors = ["Red", "Green", "Blue"];
+
+// colors[1] = "yellow";
+// console.log(colors);
+// colors[3] = 5;
+// console.log(colors);
+
+// let c = "Pink";
+// colors[4] = c;
+// console.log(colors);
+
 const colors = ["Red", "Green", "Blue"];
-
-colors[1] = "yellow";
+colors[6] = 2;
 console.log(colors);
-colors[3] = 5;
-console.log(colors);
-
-let c = "Pink";
-colors[4] = c;
+console.log(colors.length);
+console.log(colors[3]);
+colors[100] = "Pink";
 console.log(colors);
