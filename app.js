@@ -151,12 +151,17 @@
 // console.log(arr.includes("Blue"));
 // console.log(arr.includes("blue", 2));
 
-const arr = [1, 2, [3, 4, 5], [6, 7, 8]];
+// const arr = [1, 2, [3, 4, 5], [6, 7, 8]];
 
-console.log(arr[0]);
-console.log(arr[2]);
-console.log(arr[3]);
-console.log(arr[2][0]);
-console.log(arr[2][1]);
-console.log(arr[2][2]);
-console.log(arr[3]);
+// console.log(arr[0]);
+// console.log(arr[2]);
+// console.log(arr[3]);
+// console.log(arr[2][0]);
+// console.log(arr[2][1]);
+// console.log(arr[2][2]);
+// console.log(arr[3]);
+
+const arr = ["red", "Green", , , , , "blue"];
+console.log(arr);
+
+console.log(typeof arr[3]);
