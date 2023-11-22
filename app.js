@@ -33,10 +33,27 @@
 // colors[4] = c;
 // console.log(colors);
 
-const colors = ["Red", "Green", "Blue"];
-colors[6] = 2;
-console.log(colors);
-console.log(colors.length);
-console.log(colors[3]);
-colors[100] = "Pink";
-console.log(colors);
+// const colors = ["Red", "Green", "Blue"];
+// colors[6] = 2;
+// console.log(colors);
+// console.log(colors.length);
+// console.log(colors[3]);
+// colors[100] = "Pink";
+// console.log(colors);
+
+let a = 5;
+let b = a;
+console.log(a);
+console.log(b);
+
+a = 6;
+console.log(b);
+
+let arr1 = [1, 2, "Three", false];
+const arr2 = arr1;
+
+console.log(arr1);
+console.log(arr2);
+arr1[0] = 0;
+console.log(arr1);
+console.log(arr2);
