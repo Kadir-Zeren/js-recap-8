@@ -58,17 +58,29 @@
 // console.log(arr1);
 // console.log(arr2);
 
-const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
-const cls = colors.slice();
-console.log(colors);
-console.log(cls);
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+// const cls = colors.slice();
+// console.log(colors);
+// console.log(cls);
 
-colors[0] = "Black";
-console.log(colors);
-console.log(cls);
-console.log(colors.slice(2, 4));
-console.log(colors.slice(-2));
-console.log(colors.slice(2));
-console.log(colors.slice(8));
-console.log(colors.slice(-2, 1));
-console.log(colors.slice(-3, -1));
+// colors[0] = "Black";
+// console.log(colors);
+// console.log(cls);
+// console.log(colors.slice(2, 4));
+// console.log(colors.slice(-2));
+// console.log(colors.slice(2));
+// console.log(colors.slice(8));
+// console.log(colors.slice(-2, 1));
+// console.log(colors.slice(-3, -1));
+
+const colors = ["Red", "Green"];
+console.log(colors.length);
+let c = "White";
+console.log(colors.push("Blue", 2023, c));
+
+const car = ["Audi", "BMW"];
+const car2 = ["Ford", "Tesla", "Mercedes"];
+car.push(car2);
+car.push(...car2);
+console.log(car);
+console.log(car[2][2]);
